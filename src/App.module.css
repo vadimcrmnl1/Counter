@@ -106,10 +106,35 @@
     margin: 10px 10px 10px 10px;
     height: 40px;
 }
-.setValue input {
+.defaultInput {
     width: 150px;
     height: 30px;
     border: 2px solid #61dafb;
     border-radius: 5px;
     text-align: center;
+}
+.errorInput {
+    background: red;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    text-align: center;
+}
+.error {
+    background-color: #282c34;
+    color: red;
+    width: 360px;
+    height: 120px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+
+    align-items: center;
+    font-weight: bold;
+}
+.error text {
+    margin-top: 20px;
 }
